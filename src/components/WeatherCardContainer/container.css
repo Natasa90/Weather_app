@@ -1,0 +1,41 @@
+.weather-card-container {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;  
+max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f4f4f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.weather-card-container .search-container {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.weather-card-container .error-message {
+  font-size: 14px;
+  color: #e74c3c;
+  margin-bottom: 15px;
+}
+button {
+display: flex;
+  justify-content: center;
+  align-items: center; /* Center text inside the button */
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 5px 10px; /* Make button smaller */
+  border-radius: 5px;
+  font-size: 12px; /* Smaller font size */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: auto; /* Allow the button to be only as wide as needed */
+}
+
+button:hover {
+  background-color: #c0392b;
+}
